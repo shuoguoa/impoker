@@ -53,11 +53,25 @@
                     </span>
                 @endif
             </div>
+
+            <div class="form-group has-feedback">
+                 <input style="width: 15%;height: 18px" id="email" name="os"  type="radio" value="0" >
+                <span style="color:#9ca1ad;font-size: 18px;margin: 4px 0 0;height: 18px;">IOS</span>
+
+                <input style="width: 15%;height: 18px;margin-left:60px" id="text" name="os"  type="radio" value="1" >
+                <span style="color:#9ca1ad;font-size: 18px;margin-right: 90px;margin: 4px 0 0;height: 18px">ANDROID</span>
+
+                @if ($errors->has('os'))
+                    <span class="help-block">
+                        <strong>{{ $errors->first('os') }}</strong>
+                    </span>
+                @endif
+            </div>
+
             <div class="row">
                 <div class="col-xs-offset-4 col-xs-4">
                     <button type="submit" class="btn btn-primary btn-block btn-flat">登录</button>
                 </div>
-                <!-- /.col -->
             </div>
         </form>
     </div>
