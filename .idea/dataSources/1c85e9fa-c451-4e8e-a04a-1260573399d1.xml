@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="hackerrank@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.4">
+    <root id="1"/>
+    <schema id="2" parent="1" name="hackerrank">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="coupon"/>
+    <schema id="4" parent="1" name="cpmibms"/>
+    <schema id="5" parent="1" name="cpmibms2"/>
+    <schema id="6" parent="1" name="cpmv2"/>
+    <schema id="7" parent="1" name="dspv5"/>
+    <schema id="8" parent="1" name="gotest"/>
+    <schema id="9" parent="1" name="host_classification"/>
+    <schema id="10" parent="1" name="information_schema"/>
+    <schema id="11" parent="1" name="laravel5"/>
+    <schema id="12" parent="1" name="leetcode"/>
+    <schema id="13" parent="1" name="localtest"/>
+    <schema id="14" parent="1" name="mysql"/>
+    <schema id="15" parent="1" name="oa"/>
+    <schema id="16" parent="1" name="oav2"/>
+    <schema id="17" parent="1" name="performance_schema"/>
+    <schema id="18" parent="1" name="pytest"/>
+    <schema id="19" parent="1" name="sakila"/>
+    <schema id="20" parent="1" name="slim"/>
+    <schema id="21" parent="1" name="statserver"/>
+    <schema id="22" parent="1" name="symfony"/>
+    <schema id="23" parent="1" name="sys"/>
+    <schema id="24" parent="1" name="yii2-starter-kit"/>
+    <schema id="25" parent="1" name="yii2basic"/>
+    <table id="26" parent="2" name="company"/>
+    <table id="27" parent="2" name="employee"/>
+    <table id="28" parent="2" name="lead_manager"/>
+    <table id="29" parent="2" name="manager"/>
+    <table id="30" parent="2" name="senior_manager"/>
+    <table id="31" parent="2" name="station"/>
+    <table id="32" parent="2" name="test1"/>
+    <column id="33" parent="26" name="company_code">
+      <Position>1</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="34" parent="26" name="founder">
+      <Position>2</Position>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="35" parent="27" name="employee_code">
+      <Position>1</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="36" parent="27" name="manager_code">
+      <Position>2</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="37" parent="27" name="senior_manager_code">
+      <Position>3</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="38" parent="27" name="lead_manager_code">
+      <Position>4</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="39" parent="27" name="company_code">
+      <Position>5</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="40" parent="28" name="lead_manager_code">
+      <Position>1</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="41" parent="28" name="company_code">
+      <Position>2</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="42" parent="29" name="manager_code">
+      <Position>1</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="43" parent="29" name="senior_manager_code">
+      <Position>2</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="44" parent="29" name="lead_manager_code">
+      <Position>3</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="45" parent="29" name="company_code">
+      <Position>4</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="46" parent="30" name="senior_manager_code">
+      <Position>1</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="47" parent="30" name="lead_manager_code">
+      <Position>2</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="48" parent="30" name="company_code">
+      <Position>3</Position>
+      <DataType>varchar(5)|0</DataType>
+    </column>
+    <column id="49" parent="31" name="ID">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="50" parent="31" name="CITY">
+      <Position>2</Position>
+      <DataType>varchar(21)|0</DataType>
+    </column>
+    <column id="51" parent="31" name="STATE">
+      <Position>3</Position>
+      <DataType>varchar(2)|0</DataType>
+    </column>
+    <column id="52" parent="31" name="LAT_N">
+      <Position>4</Position>
+      <DataType>decimal(20,8)|0</DataType>
+    </column>
+    <column id="53" parent="31" name="LONG_W">
+      <Position>5</Position>
+      <DataType>decimal(20,8)|0</DataType>
+    </column>
+    <column id="54" parent="32" name="n">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+  </database-model>
+</dataSource>

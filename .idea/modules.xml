@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../coupon/.idea/coupon.iml" filepath="$PROJECT_DIR$/../coupon/.idea/coupon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../framework/.idea/framework.iml" filepath="$PROJECT_DIR$/../framework/.idea/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/oa.iml" filepath="$PROJECT_DIR$/.idea/oa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../oav2/.idea/oav2.iml" filepath="$PROJECT_DIR$/../oav2/.idea/oav2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../script/.idea/script.iml" filepath="$PROJECT_DIR$/../script/.idea/script.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../silex-skeleton/.idea/silex-skeleton.iml" filepath="$PROJECT_DIR$/../silex-skeleton/.idea/silex-skeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../skeleton/.idea/skeleton.iml" filepath="$PROJECT_DIR$/../skeleton/.idea/skeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../slim/.idea/slim.iml" filepath="$PROJECT_DIR$/../slim/.idea/slim.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../statServer/.idea/statServer.iml" filepath="$PROJECT_DIR$/../statServer/.idea/statServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sudoku/.idea/sudoku.iml" filepath="$PROJECT_DIR$/../sudoku/.idea/sudoku.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../symfonyM/.idea/symfonyM.iml" filepath="$PROJECT_DIR$/../symfonyM/.idea/symfonyM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../twig/.idea/twig.iml" filepath="$PROJECT_DIR$/../twig/.idea/twig.iml" />
+    </modules>
+  </component>
+</project>
